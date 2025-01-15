@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Step 1: Load and Prepare the Dataset
-file_path = '/mnt/data/Crop_recommendationV2.csv'
+file_path = './Crop_recommendationV2.csv'
 data = pd.read_csv(file_path)
 
 # Display dataset structure and summary
